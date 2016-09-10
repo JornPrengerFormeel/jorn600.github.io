@@ -21,7 +21,13 @@
       text-decoration: none;
     }
     
-    li a:hover
+    li a.active
+    {
+      background-color: #4CAF50;
+      color: white;
+    }
+    
+    li a:hover:not(.active)
     {
       background-color: #555;
       color: white;
