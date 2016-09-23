@@ -1,72 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-
-	@font-face
-	{
-		font-family: 'LemonMilk';
-		src: url("LemonMilk.otf") format('opentype');
-
-	}
-div.container {
-    width: 100%;
-    border: 1px  pink;
-}
-
-header, footer {
-    padding: 1em;
-    color: white;
-    background-color: deeppink;
-    clear: left;
-    text-align: center;
-    font-family: 35px 'LemonMilk';
-}
-
-nav {
-    float: left;
-    max-width: 160px;
-    margin: 0;
-    padding: 1em;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-			
-nav ul a {
-    text-decoration: none;
-}
-
-article {
-    margin-left: 170px;
-    border-left: 1px solid gray;
-    padding: 1em;
-    overflow: hidden;
-    font-family: 15px arial, sans-serif;
-}
-</style>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 
-<div class="container">
-
-<header>
-   <h1>Jorn Prenger(:</h1>
-</header>
+<div class="jumbotron text-center">
+  <h1>My First Bootstrap Page</h1>
+  <p>Resize this responsive page to see the effect!</p> 
+</div>
   
-
-<article>
-  <h1>Hoi, ik ben jorn!</h1>
-  <p>hoihoihoi</p>
-  <p>hallo</p>
-</article>
-
-<footer>Copyright © Jorn
-
-haha neehoor</footer>
-
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3>        
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+  </div>
 </div>
 
 </body>
