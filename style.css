@@ -4,7 +4,8 @@
 }
 div.container {
     width: 100%;
-    border: 1px solid gray;
+    border: solid gray;
+	  border-radius: 2px ;
 }
 
 header {
