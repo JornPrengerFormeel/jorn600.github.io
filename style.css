@@ -1,22 +1,35 @@
-body
-{
-  background-color:#ffffff;
-  font-family:"Lucida Console";
-  color:#000000;
-  text-align: center;
+div.container {
+    width: 100%;
+    border: 1px solid gray;
 }
 
-#box
-{
-  background-color: #ff0080;
-  padding:15px;
-  border-radius:15px;
-  border:3px solid #000000;
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
 }
-#box2
-{
-  background-color:#ff0080;
-  padding:15px;
-  border-radius:15px;
-  border:3px solid #000000;
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+			
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
 }
