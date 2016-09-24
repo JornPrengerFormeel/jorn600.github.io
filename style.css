@@ -7,12 +7,20 @@ div.container {
     border: 1px solid gray;
 }
 
-header, footer {
+header {
     padding: 1em;
     color: white;
     background-color: black;
     clear: left;
 	  font-family: "BEBAS___";
+    text-align: center;	
+}
+
+footer{
+	  padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
     text-align: center;
 }
 
@@ -21,6 +29,7 @@ nav {
     max-width: 160px;
     margin: 0;
     padding: 1em;
+		font-family: "BEBAS___";
 }
 
 nav ul {
@@ -37,5 +46,5 @@ article {
     border-left: 1px solid gray;
     padding: 1em;
     overflow: hidden;
-	
+	  font-family: "BEBAS___";	
 }
