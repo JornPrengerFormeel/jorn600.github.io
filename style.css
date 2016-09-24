@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "BEBAS___";
+  src: url(BEBAS___.ttf) format("truetype");
+}
 div.container {
     width: 100%;
     border: 1px solid gray;
@@ -8,6 +12,7 @@ header, footer {
     color: white;
     background-color: black;
     clear: left;
+	  font-family: "BEBAS___";
     text-align: center;
 }
 
@@ -32,4 +37,5 @@ article {
     border-left: 1px solid gray;
     padding: 1em;
     overflow: hidden;
+	
 }
