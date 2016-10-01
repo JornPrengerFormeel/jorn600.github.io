@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Jorn Prenger is helpt bij open dag djog"
+title: "Jorn Prenger helpt bij open dag djog"
 date: 2016-10-01
 ---
 
