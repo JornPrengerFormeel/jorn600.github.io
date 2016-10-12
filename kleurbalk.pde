@@ -6,6 +6,6 @@ void setup()
 
 void draw()
 {
-  fill(random(mouseY),random(mouseX),random(mouseX+mouseY));
+  fill(255,random(mouseY),100);
   rect(500,25);
 }
