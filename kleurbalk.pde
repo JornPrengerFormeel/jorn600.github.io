@@ -6,6 +6,6 @@ void setup()
 void draw()
 {
   background();
-  fill(mouseX,mouseY,mouseX+mouseY);
+  fill(mouseX,0,105);
   rect(0,25,500,25);
 }
